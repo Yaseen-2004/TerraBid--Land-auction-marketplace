@@ -1,0 +1,1 @@
+.venv/\n__pycache__/\n*.py[cod]\ndata/*.sqlite3\n.streamlit/secrets.toml\n

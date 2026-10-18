@@ -1,0 +1,1 @@
+.venv/\nnode_modules/\n__pycache__/\n*.py[cod]\n.env\nfrontend_streamlit/data/*.sqlite3\n

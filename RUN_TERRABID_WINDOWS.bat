@@ -1,0 +1,1 @@
+@echo off\nsetlocal\ncd /d "%~dp0frontend_streamlit"\nif not exist ".venv\\Scripts\\python.exe" (\n  python -m venv .venv\n)\ncall ".venv\\Scripts\\activate.bat"\npython -m pip install --upgrade pip\npip install -r requirements.txt\nstreamlit run app.py\n
